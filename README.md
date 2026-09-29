@@ -49,6 +49,25 @@ para trocar ou reprocessar uma foto.
 | `fotos/Screenshot 2026-09-29 101547.png` | Arte "Qualidade comprovada" | só o texto |
 | `avaliacoes/Thiago_Pacheco.png`, `Jessica_Cristina.png`, `Marcos Gonçalves.png` | Fotos de perfil, 72 x 72 px | avaliações |
 
+## Repositório
+
+| Item | Valor |
+| --- | --- |
+| Endereço | `git@github.com:joabegalvao/posto-tacs.git` |
+| Página | https://github.com/joabegalvao/posto-tacs |
+| Visibilidade | pública (conferida em 29/09/2026) |
+| Branch | `main` |
+
+O repositório guarda só o que o site precisa para funcionar e ser mantido:
+`index.html`, `assets/`, `tools/`, `README.md` e `.gitignore`.
+
+```bash
+git clone git@github.com:joabegalvao/posto-tacs.git
+```
+
+Um clone novo abre e publica o site normalmente. Só não roda o script de
+imagens, que depende da pasta `materiais-de-origem/`.
+
 ## Dados do cliente
 
 Recebidos em 29/09/2026.
